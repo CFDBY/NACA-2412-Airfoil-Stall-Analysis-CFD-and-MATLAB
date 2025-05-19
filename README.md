@@ -101,6 +101,19 @@ Each AoA case includes the following plots:
 
 ---
 
+### Pressure and Velocity Animations
+
+Below are the pressure and velocity animations of my CFD simulation. Both animations were generated with a timestep size of 1.2.
+
+#### Velocity Animation
+
+![Velocity Animation](./velocity_gif.gif)
+
+#### Pressure Animation
+
+![Pressure Animation](./pressure_gif.gif)
+
+
 ## 📈 Theoretical Validation — MATLAB Script
 The following script calculates theoretical Cl and Cd values using Thin Airfoil Theory and a parabolic drag model.
 
