@@ -155,6 +155,16 @@ xlabel('AoA'); ylabel('C_D'); grid on; title('Drag Coefficient');
 
 ---
 
+#### Cd,Cl vs AoA Graph
+
+![Cd,Cl vs AoA Graph](./graph.png)
+
+----
+## 💬 Final Observations
+In this study of a NACA 0012 airfoil under high-angle-of-attack conditions, computational constraints limited the mesh resolution and iteration count, preventing the accurate capture of stall characteristics. Specifically, the mesh was not sufficiently fine to resolve the boundary layer and flow separation phenomena, with a y+ value exceeding the recommended threshold of 1. Additionally, the low number of iterations likely led to incomplete convergence. To adequately capture stall, a timestep size of 0.0001 with approximately 300,000 iterations would have been required, as suggested by prior studies (e.g., [Author, Year]). As a result, the computed lift and drag coefficients may overestimate lift at higher angles of attack, limiting the reliability of performance predictions. These limitations were imposed to balance computational cost with simulation feasibility. Future work could employ adaptive mesh refinement and a higher iteration count to better resolve stall behavior.
+
+---
+
 ## 📁 Files in Repository
 ```
 📦 NACA2412_CFD_Study/
