@@ -190,4 +190,4 @@ This project successfully combines theory and simulation to analyze the stall be
 ---
 
 ### 👩‍💻 Developed by:
-> Burak Yorukcu — 2025 | CFD Enthusiast | Aerospace Engineering Applicant
+> Burak Yorukcu — 2025 | CFD Enthusiast 
